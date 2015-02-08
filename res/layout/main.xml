@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              tools:context=".EmPubLiteActivity">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView"
+            android:textStyle="normal"
+            android:visibility="visible"
+            android:text="@string/hello_world" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" android:layout_marginTop="109dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_switch"
+            android:id="@+id/button" android:layout_below="@+id/textView" android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:text="@string/license" android:hint="@string/hint"/>
+</RelativeLayout>
+
