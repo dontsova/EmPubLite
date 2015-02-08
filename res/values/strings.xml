@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">EmPub Lite</string>
+    <string name="app_version">19.0.1</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="large">Large</string>
     <string name="text_switch">Text Switch</string>
     <string name="license">License R.</string>
     <string name="hint">Введи текст</string>
-    <string name="exit">Exit</string>
 </resources>
